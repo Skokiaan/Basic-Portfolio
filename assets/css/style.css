@@ -1,0 +1,251 @@
+/*elements on all pages*/
+
+* {
+	color: #777777;
+	font-style: 'Arial', 'Helvetica Neue', 
+		Helvetica, sans-serif;
+}
+
+header {
+	color: #eee;
+	font-family: 'Georgia', Times, 
+		Times New Roman, serif;
+}
+
+#header {
+	background: #eee;
+	width: 960px;
+	height: 55px;
+	border-bottom: 5px #cccccc;
+}
+
+#myName {
+	background: #4aaaa5;
+	color: white;
+	width: 300px;
+	height: 40px;
+	text-align: center;
+	top: 0px;
+	margin-left: 20px;
+	float: left;
+	padding-top: 15px;
+}
+
+/*These are links in the header*/
+#links {
+	float: right;
+	padding-top: 15px;
+	margin-right: 100px;
+}
+
+.pageLinks {
+	margin: 10Px;
+
+}
+
+p {
+	padding-right: 20px;
+	margin-left: 10px;
+}
+
+#connect {
+	background-color: #ffffff;
+	width: 270px;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+
+#connectTitle{
+	border-bottom: 3px solid #dddddd;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.contactLinks {
+	max-width: 57px;
+	align-items: center;
+}
+
+#footer {
+	background: #666666;
+	width: 960px;
+	height: 55px;
+	text-align: center;
+	border-top: 7px solid #4aaaa5;
+	color: white;
+	padding-top: 8px;
+}
+
+/*index page*/
+
+#mainBody {
+	background-image: url("../images/textured_paper.png");
+	background: ;
+	width: 960px;
+	height: 400px;
+}
+
+#aboutMe {
+	background: #ffffff;
+	width: 610px;
+	height: 300px;
+	float: left;
+	margin: 0px 20px 0px 20px;
+	padding-bottom: 10px;
+
+}
+
+#about {
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #4aaaa5;
+	border-bottom: 3px solid #dddddd;
+}
+
+#selfPhoto {
+	max-width: 150px;
+	float: left;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+
+/*Portfolio page */
+
+.portImages {
+	width: 150px;
+	max-height: 150px;
+	margin: 10px;
+}
+
+/*placeholder images (Portfoliio)*/
+
+/*Bender*/
+#place1 {
+	
+}
+
+/*Simpsons*/
+#place2 {
+	position: relative;
+	top: -225px;
+	left: 200px;
+}
+
+/*Southpark*/
+#place3 {
+	position: relative;
+	top: -280px;
+
+}
+
+/*Army*/
+#place4 {
+	position: relative;
+	top: -507px;
+	left: 200px;
+}
+
+#portBody {
+	background-image: url("../images/textured_paper.png");
+	width: 960px;
+	height: 500px;
+}	
+
+#portTitle {
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #4aaaa5;
+	border-bottom: 3px solid #dddddd;
+}
+
+#portLinks {
+	background: #ffffff;
+	width: 610px;
+	height: 400px;
+	float: left;
+	margin: 0px 20px 0px 20px;
+	padding-bottom: 10px;
+}
+
+/*Portfolio page placeholder labels*/
+
+#bender{
+	width: 130px;
+	height: 20px;
+	background: #4aaaa5;
+	position: relative;
+	top: -60px;
+	text-align: center;
+	color: white;
+}
+
+#simpsons {
+	width: 130px;
+	height: 20px;
+	background: #4aaaa5;
+	text-align: center;
+	color: white;
+	position: relative;
+	top: -285px;
+	left: 200px;	
+}
+
+#southpark {
+	width: 130px;
+	height: 20px;
+	background: #4aaaa5;
+	text-align: center;
+	color: white;
+	position: relative;
+	top: -340px;
+}
+
+#army {
+	width: 130px;
+	height: 20px;
+	background: #4aaaa5;
+	text-align: center;
+	color: white;
+	position: relative;
+	top: -569px;
+	left: 200px;
+}
+
+
+/*Contact page */
+
+#contactBody {
+	background-image: url("../images/textured_paper.png");
+	width: 960px;
+	height: 500px;
+}
+
+#contactTitle {
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #4aaaa5;
+	border-bottom: 3px solid #dddddd;
+}
+
+#entryForm {
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #4aaaa5;
+	float: left;
+	width: 100%;
+	padding: 0px 10px 0px 10px;
+	position: relative;
+	line-height: 1.5;
+
+}
+
+#contactFormBox {
+	background: #ffffff;
+	width: 610px;
+	height: 400px;
+	float: left;
+	margin: 0px 20px 0px 20px;
+	padding-bottom: 10px;
+}
