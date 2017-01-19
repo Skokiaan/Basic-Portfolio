@@ -1,3 +1,5 @@
+/*Recommended Homework*/
+
 /*elements on all pages*/
 
 * {
@@ -12,10 +14,23 @@ header {
 		Times New Roman, serif;
 }
 
+h2 {
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #4aaaa5;
+	border-bottom: 3px solid #dddddd;
+}
+
+h3 {
+	border-bottom: 3px solid #dddddd;
+	margin-right: 10px;
+	margin-left: 10px;
+	color: #4aaaa5;
+}
+
 #header {
 	background: #eee;
 	width: 960px;
-	height: 55px;
 	border-bottom: 5px #cccccc;
 }
 
@@ -25,10 +40,16 @@ header {
 	width: 300px;
 	height: 40px;
 	text-align: center;
-	top: 0px;
 	margin-left: 20px;
 	float: left;
 	padding-top: 15px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.clearFix {
+	clear: both;
+	width: 100%;
 }
 
 /*These are links in the header*/
@@ -54,12 +75,11 @@ p {
 	height: 200px;
 	float: left;
 	text-align: center;
+	margin-top: 30px;
 }
 
 #connectTitle{
-	border-bottom: 3px solid #dddddd;
-	margin-right: 10px;
-	margin-left: 10px;
+	
 }
 
 .contactLinks {
@@ -69,12 +89,18 @@ p {
 
 #footer {
 	background: #666666;
-	width: 960px;
-	height: 55px;
+	width: 940px;
+	height: 40px;
 	text-align: center;
 	border-top: 7px solid #4aaaa5;
 	color: white;
-	padding-top: 8px;
+	padding-top: 15px;
+	position: relative;
+	left: -10px;
+	top: -12px;
+	margin-top: 0px;
+	font-size: 10px;
+
 }
 
 /*index page*/
@@ -91,17 +117,11 @@ p {
 	width: 610px;
 	height: 300px;
 	float: left;
-	margin: 0px 20px 0px 20px;
+	margin: 30px 20px 0px 20px;
 	padding-bottom: 10px;
 
 }
 
-#about {
-	margin-left: 10px;
-	margin-right: 10px;
-	color: #4aaaa5;
-	border-bottom: 3px solid #dddddd;
-}
 
 #selfPhoto {
 	max-width: 150px;
@@ -123,28 +143,29 @@ p {
 
 /*Bender*/
 #place1 {
-	
+	float: left;
 }
 
 /*Simpsons*/
 #place2 {
-	position: relative;
-	top: -225px;
-	left: 200px;
+	float: left;
+	/*position: relative;*/
+	/*top: -225px;*/
+	/*left: 200px;*/
 }
 
 /*Southpark*/
 #place3 {
-	position: relative;
-	top: -280px;
+	/*position: relative;*/
+	/*top: -280px;*/
 
 }
 
 /*Army*/
 #place4 {
-	position: relative;
-	top: -507px;
-	left: 200px;
+	/*position: relative;*/
+	/*top: -507px;*/
+	/*left: 200px;*/
 }
 
 #portBody {
@@ -165,8 +186,28 @@ p {
 	width: 610px;
 	height: 400px;
 	float: left;
-	margin: 0px 20px 0px 20px;
+	margin: 30px 20px 0px 20px;
 	padding-bottom: 10px;
+}
+
+#topPortFloatPic {
+	width: 100%;
+	float: left;
+}
+
+#topPortFloatPara {
+	width: 100%;
+	/*float: left;*/
+}
+
+#bottomPortFloatPic {
+	width: 100%;
+	clear: both;
+}
+
+#bottomPortFloatPara {
+	width: 100%;
+	/*float: left;*/
 }
 
 /*Portfolio page placeholder labels*/
@@ -176,9 +217,11 @@ p {
 	height: 20px;
 	background: #4aaaa5;
 	position: relative;
-	top: -60px;
+	top: 106px;
+	right: 340px;
 	text-align: center;
 	color: white;
+	float: left;
 }
 
 #simpsons {
@@ -187,9 +230,10 @@ p {
 	background: #4aaaa5;
 	text-align: center;
 	color: white;
+	float:left;
 	position: relative;
-	top: -285px;
-	left: 200px;	
+	top: 54px;
+	left: -169px;	
 }
 
 #southpark {
@@ -198,8 +242,9 @@ p {
 	background: #4aaaa5;
 	text-align: center;
 	color: white;
+	clear:both;
 	position: relative;
-	top: -340px;
+	top: -66px;
 }
 
 #army {
@@ -208,9 +253,10 @@ p {
 	background: #4aaaa5;
 	text-align: center;
 	color: white;
+	float: left;
 	position: relative;
-	top: -569px;
-	left: 200px;
+	top: -118px;
+	left: 174px;
 }
 
 
@@ -246,6 +292,6 @@ p {
 	width: 610px;
 	height: 400px;
 	float: left;
-	margin: 0px 20px 0px 20px;
+	margin: 30px 20px 0px 20px;
 	padding-bottom: 10px;
 }
